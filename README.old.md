@@ -16,7 +16,9 @@ There are several configurations and settings that I would like to use across al
     
 - Babel Module resolver for easier relative paths
 
-    which will allow for much simpler file/function imports from relative paths with the use of an alias in place of cumbersome relative paths. for example:
+    which will allow for much simpler file/function imports from relative paths with the use of an alias in place of cumbersome relative paths. click [here](https://www.robinwieruch.de/babel-module-resolver) for more info. 
+    
+    Example:
     
       // old way to import
       import { CheckIcon } from '../components/icons'
@@ -26,7 +28,7 @@ There are several configurations and settings that I would like to use across al
       import { CheckIcon } from '@icons'
       import CancelIcon from '@icons/CancelIcon'
       
-   click [here](https://www.robinwieruch.de/babel-module-resolver) for more info.
+   
     
     
     
