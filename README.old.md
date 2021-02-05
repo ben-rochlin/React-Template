@@ -12,7 +12,22 @@ There are several configurations and settings that I would like to use across al
 
 - locally scoped SCSS
 
-    Which allows me to use scss classnames that will only be applied to the elements contained within the file that the scss is imported into, I can reuse the same scss class names throughout my application and not have to worry about styles overiding other components/elements with the same class name. click [here](https://dev.to/viclafouch/how-to-scope-your-css-scss-in-react-js-271a) for more info. 
+    Which allows me to use scss classnames that will only be applied to the elements contained within the file that the scss is imported into, I can reuse the same scss class names throughout my application by simply naming the scss file `example.scoped.scss` and not have to worry about styles overiding other components/elements with the same class name. click [here](https://dev.to/viclafouch/how-to-scope-your-css-scss-in-react-js-271a) for more info.
+    
+- Babel Module resolver for easier relative paths
+
+    which will allow for much simpler file/function imports from relative paths with the use of an alias in place of cumbersome relative paths. for example:
+    
+      // old way to import
+      import { CheckIcon } from '../components/icons'
+      import CancelIcon from '../components/icons/CancelIcon'
+ 
+      // new way to import
+      import { CheckIcon } from '@icons'
+      import CancelIcon from '@icons/CancelIcon'
+      
+   click [here](https://www.robinwieruch.de/babel-module-resolver) for more info.
+    
     
     
 - Folder/File structure
