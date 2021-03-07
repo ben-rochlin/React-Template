@@ -5,6 +5,15 @@ Blank react template to be used in place of create-react-app.
 There are several configurations and settings that I would like to use across all my react applications, this template will be used as a blank canvas to get my react apps up and running quickly and allow me to focus on actually coding.
 
 ## Features
+- Security
+
+    First and foremost, security, I cannot stress hard enough how important it is to be actively aware of the current cyber security landscape and the vectors of attack that may be present, we as developers have a responsibility to ourselves and our clients to ensure that the ever present risks are mitigated to the best of our abilites. 
+
+    One of the biggest flaws in the current landscape comes in the form of 'software supply chain attacks' in which a malicious dependancies disguise themselves, or pretend to be,   more reputable or familiar npm packages.
+
+    [LavaMoat](https://github.com/LavaMoat/LavaMoat) is a new tool which aims to mitigate this risk by preventing post-install scripts from executing by default.
+
+    for more info click [here](https://medium.com/metamask/how-metamasks-latest-security-tool-could-protect-smart-contract-developers-from-theft-e12da346aa53)
 
 - Global CSS reset/config file
 
