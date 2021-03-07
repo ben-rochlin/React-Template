@@ -7,7 +7,7 @@ There are several configurations and settings that I would like to use across al
 ## Features
 - Security
 
-    First and foremost, security, I cannot stress hard enough how important it is to be actively aware of the current cyber security landscape and the vectors of attack that may be present, we as developers have a responsibility to ourselves and our clients to ensure that the ever present risks are mitigated to the best of our abilites. 
+    First and foremost, security. It is important to be actively aware of the current cyber security landscape and the vectors of attack that may be present, we as developers have a responsibility to ourselves and our clients to ensure that the ever present risks are mitigated to the best of our abilites. 
 
     One of the biggest flaws in the current landscape comes in the form of 'software supply chain attacks' in which a malicious dependancies disguise themselves, or pretend to be,   more reputable or familiar npm packages.
 
